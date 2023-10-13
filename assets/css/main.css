@@ -1234,7 +1234,9 @@ section {
   font-weight: 500;
   color: var(--color-secondary);
 }
-
+.plus {
+  vertical-align: middle;
+}
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
