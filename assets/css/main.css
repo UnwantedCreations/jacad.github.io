@@ -713,14 +713,17 @@ section {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   background: #fff;
   position: relative;
-  border-radius: 0;
-  height: 100%;
+  border-radius: 5%;
+  height: 80%;
+  width: 80%;
 }
 
 .services .card .card-img {
   overflow: hidden;
   margin-bottom: 15px;
   border-radius: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .services .card .card-img img {
