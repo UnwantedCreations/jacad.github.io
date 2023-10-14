@@ -1234,9 +1234,7 @@ section {
   font-weight: 500;
   color: var(--color-secondary);
 }
-.plus {
-  vertical-align: middle;
-}
+
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
@@ -2032,4 +2030,8 @@ section {
 
 .fa-shake {
   animation: shake-animation 10s infinite 1s; /* 0.5s is the duration of each shake, 4s is the delay between shakes */
+}
+
+.shadow {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
