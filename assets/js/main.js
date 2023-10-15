@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var swiper = new Swiper('.hero-swiper', {
     loop: true,
     autoplay: {
-      delay: 12000,
+      delay: 5000,
     },
     slidesPerView: 1,
     spaceBetween: 3000,
