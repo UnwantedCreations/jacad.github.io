@@ -1727,7 +1727,7 @@ section {
 .hero {
   width: 100%;
   min-height: 50vh;
-  background-color: var(--color-secondary);
+  background-color: #000000;
   background-image: url("../img/hero-bg.png");
   background-size: cover;
   background-position: center;
@@ -2104,4 +2104,22 @@ section {
 .play-bttn:hover:after {
   border-left: 15px solid var(--color-primary);
   transform: scale(20);
+}
+
+.hero-custom .hero-img .img-container {
+  position: relative;
+}
+
+.hero-custom .hero-img .img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.hero-custom .hero-img .img-container img.active {
+  opacity: 1;
 }

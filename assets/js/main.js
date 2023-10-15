@@ -145,3 +145,21 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  let currentImage = 0;
+  const images = document.querySelectorAll('#slideshow img');
+
+  function showImage(index) {
+    images.forEach(img => img.classList.remove('active'));
+    images[index].classList.add('active');
+  }
+
+  function nextImage() {
+    currentImage = (currentImage + 1) % images.length;
+    showImage(currentImage);
+    setTimeout(nextImage, 8000); // Change image every 8 seconds
+  }
+
+  nextImage();
+});
