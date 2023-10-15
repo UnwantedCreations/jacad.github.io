@@ -2120,6 +2120,7 @@ section {
   transition: opacity 2s ease-in-out;
 }
 
+
 .hero-custom .hero-img .img-container img.active {
   opacity: 1;
 }

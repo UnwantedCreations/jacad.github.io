@@ -146,6 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+
 document.addEventListener('DOMContentLoaded', function() {
   let currentImage = 0;
   const images = document.querySelectorAll('#slideshow img');
