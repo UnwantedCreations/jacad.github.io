@@ -66,13 +66,14 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li class="dropdown"><a href="services.html"><span>Courses</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">OET</a></li>
-              <li><a href="#">CBT</a></li>
-              <li><a href="#">IELTS</a></li>
-              <li><a href="#">OSCE</a></li>
-              <li><a href="#">NHS Interview Preparation</a></li>
+              <li><a href="OET.html">OET</a></li>
+              <li><a href="CBT.html">CBT</a></li>
+              <li><a href="IELTS.html">IELTS</a></li>
+              <li><a href="OSCE.html">OSCE</a></li>
+              <li><a href="German.html">GERMAN</a></li>
+              <li><a href="NHS.html">NHS Interview Preparation</a></li>
             </ul>
           </li>
           <li><a href="#recent">Videos</a></li>
@@ -90,7 +91,7 @@
   <section id="hero" class="hero d-flex align-items-center hero-custom">
     <div class="container">
       <div class="row gy-4 d-flex justify-content-between">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-between">
           <h2 data-aos="fade-down-right" data-aos-delay="300">Most Trusted OET/IELTS Brand in Kerala</h2>
           <p data-aos="fade-up-right" data-aos-delay="400">Jinu's Academy, the best OET/IELTS center in Kerala, We believes that every student has untapped potential. We specialize in empowering low-level learners, guiding them towards academic excellence through personalized attention and an inclusive learning environment.</p>
 
@@ -142,14 +143,18 @@
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="fade-up-left" data-aos-delay="600">
-          <div id="slideshow" class="img-container">
-            <img src="assets/img/website-hero.png" class="img-fluid mb-3 mb-lg-0 active" alt="Hero Image 1">
-            <img src="assets/img/sir-maam.jpg" class="img-fluid mb-3 mb-lg-0" alt="Hero Image 2">
+          <div class="swiper-container hero-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/img/hero-img.png" class="img-fluid mb-5 mb-lg-0" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/award-2.png" class="img-fluid mb-5 mb-lg-0" alt="">
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- End Hero section -->
+
+  </section><!-- End Hero Section -->
 
   <main id="main">
 
@@ -252,7 +257,7 @@
               <div class="card-img">
                 <img src="assets/img/courses/OET.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">OET</a></h3>
+              <h3><a href="OET.html" class="stretched-link">OET</a></h3>
               <p>The Occupational English Test (OET)</p>
             </div>
           </div><!-- End Card Item -->
@@ -262,7 +267,7 @@
               <div class="card-img">
                 <img src="assets/img/courses/CBT.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">CBT</a></h3>
+              <h3><a href="CBT.html" class="stretched-link">CBT</a></h3>
               <p>The Computer-Based Test (CBT)</p>
             </div>
           </div><!-- End Card Item -->
@@ -272,7 +277,7 @@
               <div class="card-img">
                 <img src="assets/img/courses/OSCE.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">OSCE</a></h3>
+              <h3><a href="OSCE.html" class="stretched-link">OSCE</a></h3>
               <p>The Objective Structured Clinical Examination (OSCE)</p>
             </div>
           </div><!-- End Card Item -->
@@ -282,7 +287,7 @@
               <div class="card-img">
                 <img src="assets/img/courses/IELTS.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">IELTS</a></h3>
+              <h3><a href="IELTS.html" class="stretched-link">IELTS</a></h3>
               <p>International English Language Testing System (IELTS)</p>
             </div>
           </div><!-- End Card Item -->
@@ -292,7 +297,7 @@
               <div class="card-img">
                 <img src="assets/img/courses/NHS.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">NHS Interview Preparation</a></h3>
+              <h3><a href="NHS.html" class="stretched-link">NHS Interview Preparation</a></h3>
               <p></p>
             </div>
           </div><!-- End Card Item -->
@@ -302,7 +307,7 @@
               <div class="card-img">
                 <img src="assets/img/courses/GERMAN.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">German</a></h3>
+              <h3><a href="German.html" class="stretched-link">German</a></h3>
               <p>The Computer-Based Test (CBT)</p>
             </div>
           </div><!-- End Card Item -->
@@ -392,16 +397,9 @@
         </div><!-- Features Item -->
       </div>
     </section><!-- End Features Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="recent" class="pricing pt-0">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <span>Recent Videos</span>
-          <h2>Recent Videos</h2>
-    </section><!-- End Pricing Section -->
-
+    <div class="section-header">
+      <span>Recent Videos</span>
+      <h2>Recent Videos</h2>
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container">
@@ -411,28 +409,44 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/about.jpg" class="img-fluid mx-auto d-block d-lg-none" alt="">
-                <img src="assets/img/about.jpg" class="img-fluid mx-auto d-none d-lg-block" alt="" style="width: 40%;">
-                <a href="https://youtu.be/ex48ZfClfZQ" class="d-flex justify-content-centerglightbox play-bttn"></a>
+                <img src="assets/img/thumbs/14-oct-23-Intro.jpg" class="img-fluid mx-auto d-block d-lg-none" alt="">
+                <img src="assets/img/thumbs/14-oct-23-Intro.jpg" class="img-fluid mx-auto d-none d-lg-block" alt="" style="width: 40%;">
+                <a href="https://www.youtube.com/watch?v=gspJHs0jz-w" class="d-flex justify-content-centerglightbox play-bttn"></a>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/about.jpg" class="img-fluid mx-auto d-block d-lg-none" alt="">
-                <img src="assets/img/about.jpg" class="img-fluid mx-auto d-none d-lg-block" alt="" style="width: 40%;">
-                <a href="https://youtu.be/ex48ZfClfZQ" class="d-flex justify-content-centerglightbox play-bttn"></a>
+                <img src="assets/img/thumbs/Gender Forecast Rule.jpg" class="img-fluid mx-auto d-block d-lg-none" alt="">
+                <img src="assets/img/thumbs/Gender Forecast Rule.jpg" class="img-fluid mx-auto d-none d-lg-block" alt="" style="width: 40%;">
+                <a href="https://www.youtube.com/watch?v=ETqFLzgu4Sc" class="d-flex justify-content-centerglightbox play-bttn"></a>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide col-lg-6">
               <div class="testimonial-item">
-                <img src="assets/img/about.jpg" class="img-fluid mx-auto d-block d-lg-none" alt="">
-                <img src="assets/img/about.jpg" class="img-fluid mx-auto d-none d-lg-block" alt="" style="width: 40%;">
-                <a href="https://youtu.be/ex48ZfClfZQ" class="d-flex justify-content-centerglightbox play-bttn"></a>
-              </div>
+                <img src="assets/img/thumbs/Grammatical Twist.jpg" class="img-fluid mx-auto d-block d-lg-none" alt="">
+                <img src="assets/img/thumbs/Grammatical Twist.jpg" class="img-fluid mx-auto d-none d-lg-block" alt="" style="width: 40%;">
+                <a href="https://www.youtube.com/watch?v=HAK8rLUvzwE" class="d-flex justify-content-centerglightbox play-bttn"></a>
               </div>
             </div><!-- End testimonial item -->
+
+            <div class="swiper-slide col-lg-6">
+              <div class="testimonial-item">
+                <img src="assets/img/thumbs/OET Idioms.jpg" class="img-fluid mx-auto d-block d-lg-none" alt="">
+                <img src="assets/img/thumbs/OET Idioms.jpg" class="img-fluid mx-auto d-none d-lg-block" alt="" style="width: 40%;">
+                <a href="https://www.youtube.com/watch?v=w64feTf1Y-w" class="d-flex justify-content-centerglightbox play-bttn"></a>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide col-lg-6">
+              <div class="testimonial-item">
+                <img src="assets/img/thumbs/Reading Part C for critical thinking.jpg" class="img-fluid mx-auto d-block d-lg-none" alt="">
+                <img src="assets/img/thumbs/Reading Part C for critical thinking.jpg" class="img-fluid mx-auto d-none d-lg-block" alt="" style="width: 40%;">
+                <a href="https://youtu.be/mjMV7hKUbRk" class="d-flex justify-content-centerglightbox play-bttn"></a>
+              </div>
+            </div><!-- End testimonial item -->
+
 
           </div>
           <div class="swiper-pagination"></div>
@@ -574,23 +588,12 @@
           <h4>Useful Links</h4>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#service">Courses</a></li>
             <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
         </div>
-<!--
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>-->
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15739.45111818068!2d76.3546462!3d9.5206494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08859d9e204b57%3A0xe694a8e8efb5e619!2sJinu&#39;s%20Academy%20-%20OET%20Online%20%26%20Offline%20Training!5e0!3m2!1sen!2sin!4v1696223966980!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

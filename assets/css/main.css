@@ -2106,21 +2106,19 @@ section {
   transform: scale(20);
 }
 
-.hero-custom .hero-img .img-container {
-  position: relative;
+.hero-swiper {
+  width: 90%;
+
 }
 
-.hero-custom .hero-img .img-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0;
-  transition: opacity 2s ease-in-out;
+.hero-swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  
+  /* Add any additional styles you want for each slide */
 }
 
-
-.hero-custom .hero-img .img-container img.active {
-  opacity: 1;
+.hero-swiper .swiper-slide img {
+  max-width: 100%; /* Make sure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
 }

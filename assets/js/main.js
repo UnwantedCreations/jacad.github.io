@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loop: true,
     autoplay: {
       delay: 5000,
+      slidesPerView: 2,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -147,20 +148,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-  let currentImage = 0;
-  const images = document.querySelectorAll('#slideshow img');
-
-  function showImage(index) {
-    images.forEach(img => img.classList.remove('active'));
-    images[index].classList.add('active');
-  }
-
-  function nextImage() {
-    currentImage = (currentImage + 1) % images.length;
-    showImage(currentImage);
-    setTimeout(nextImage, 8000); // Change image every 8 seconds
-  }
-
-  nextImage();
+document.addEventListener('DOMContentLoaded', function () {
+  var swiper = new Swiper('.hero-swiper', {
+    loop: true,
+    autoplay: {
+      delay: 12000,
+    },
+    slidesPerView: 1,
+    spaceBetween: 3000,
+    speed: 10,
+    disableOnInteraction: false
+  });
 });
